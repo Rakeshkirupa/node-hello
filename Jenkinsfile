@@ -24,7 +24,6 @@ pipeline {
     stage('Status') {
         steps {
             sh '''
-            echo Checking the host
             curl localhost:3000
          '''
             }
